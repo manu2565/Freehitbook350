@@ -1,0 +1,60 @@
+.header-main{
+  flex-wrap: nowrap !important;
+  max-width: max-content
+  !important;
+
+  
+}
+@media (max-width: 992px) {
+  .header-box{
+    flex-wrap: nowrap;
+   
+   
+  }
+  .navbar-brand img {
+    max-height: 28px;
+}
+
+.btns-log{
+font-size: 14px;
+margin-right: 10px;
+}
+   
+  
+   
+  
+  .header-main {
+      max-width: max-content
+      !important;
+      margin: 0 !important;
+  }
+  .navbar-nav{
+    padding-left: 0px;
+  }
+ 
+
+.nav-link.active {
+  color: #fff !important;
+  background: black !important;
+}
+
+.collapse {
+  margin-left: 71px;
+}
+
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: var(--bs-navbar-nav-link-padding-x);
+      padding-left: var(--bs-navbar-nav-link-padding-x);
+   
+  }
+}
+
+
+
+
+a.nav-link:hover, .navbar-nav .nav-link.active {
+  color: #FFFFFF;
+}

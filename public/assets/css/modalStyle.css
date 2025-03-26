@@ -1,0 +1,115 @@
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.modal-header {
+    padding: 0.5rem 1rem;
+    background: var(--header-bg-color);
+}
+
+.modal-header .close {
+    color: var(--header-font-color);
+}
+
+.modal-body {
+    position: relative;
+    padding: 5% 8%;
+    background: var(--primary-bg-color);
+    color: var(--primary-font-color);
+}
+
+.modal .close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--primary-font-color);
+    text-shadow: 0 1px 0 var(--primary-font-color);
+    opacity: .5;
+    background: transparent;
+    border: none;
+}
+
+.modal-body form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-body form a {
+    color: #007bff;
+}
+
+.modal-logo {
+    max-width: 50%;
+    max-height: 75px;
+}
+
+.modal-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: calc(20px + 6 * ((100vw - 320px) / 1600));
+}
+
+.modal-body .form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ced4da;
+    padding-left: 0;
+    background: var(--primary-bg-color);
+    color: var(--primary-font-color);
+}
+
+
+/* Change the white to any color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px var(--primary-bg-color) inset !important;
+    -webkit-box-shadow: 0 0 0 30px var(--primary-bg-color) inset !important;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: var(--primary-font-color) !important;
+}
+
+.send-otp-button,
+.submit-button {
+    width: 100%;
+    background: var(--active-color);
+    color: var(--active-font-color);
+    font-size: calc(13px + 3 * ((100vw - 320px) / 1600));
+    white-space: nowrap;
+}
+
+.submit-button {
+    font-size: calc(16px + 4 * ((100vw - 320px) / 1600));
+    text-transform: uppercase;
+}
+
+.send-otp-button:hover,
+.submit-button:hover {
+    color: var(--active-font-color)
+}
+
+.cc-select {
+    height: 32px;
+    border-radius: 0.3rem;
+    width: 100%;
+    background: var(--primary-bg-color);
+    color: var(--primary-font-color);
+}

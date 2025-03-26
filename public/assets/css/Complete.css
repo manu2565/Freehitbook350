@@ -1,0 +1,71 @@
+
+
+.highlight {
+    color: var(--active-color)
+}
+
+.htp-nav {
+    display: flex;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.htp-nav .nav-link {
+    background: var(--header-bg-color);
+    color: var(--header-font-color);
+    padding: 0.25rem 1rem;
+    text-transform: capitalize;
+}
+
+.htp-nav .nav-item+.nav-item {
+    margin-left: 0.5rem;
+}
+
+.htp-nav .nav-link.active {
+    background: var(--active-color);
+    color: var(--active-font-color);
+}
+
+.htp-content {
+    font-family: 'Poppins', sans-serif;
+}
+
+.htp-heading {
+    font-weight: 600;
+    font-size: calc(18px + 20 * ((100vw - 320px) / 1600))
+}
+
+ol li {
+    font-size: calc(15px + 7 * ((100vw - 320px) / 1600))
+}
+
+.reg-left {
+    display: flex;
+    ustify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.htp-deposit,
+.htp-fund-transfer,
+.htp-withdrawal,
+.htp-get-id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.htp-deposit>*+*,
+.htp-fund-transfer>*+*,
+.htp-withdrawal>*+*,
+.htp-get-id>*+* {
+    margin-top: 1rem
+}
+
+.gi-step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

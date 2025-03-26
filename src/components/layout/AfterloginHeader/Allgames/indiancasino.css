@@ -1,0 +1,16 @@
+
+
+.nav-pills .nav-link {
+  border-radius: .25rem;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.nav-link .links{
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+}
+
+

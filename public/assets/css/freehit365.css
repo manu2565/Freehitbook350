@@ -1,0 +1,143 @@
+:root {
+    --header_gradient: #01140a;
+    --header-bg-color: #01200F;
+    --header-font-color: #fff;
+    --active-color: #eda216;
+    --active-font-color: #fff;
+    --primary-bg-color: #fff;
+    --primary-font-color: #000;
+    --border-color: #e5ecf3;
+    --casino-background: rgb(235, 235, 235);
+    --casino-font-color: #000;
+    --casino-menu-bg: #fff;
+    --casino-menu-color: #000;
+    --add-account-bg: #ececec;
+    --b-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    --runner-row-bg: rgba(0, 0, 0, 0.05);
+    --bs-keyboard: transparent;
+    /* All Themes main Colors  */
+    --theme1: #01200F;
+    --theme2: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(5, 48, 56, 1) 100%);
+    --theme3: linear-gradient(to left, rgba(255, 193, 15, 1), rgba(250, 210, 98, 1), rgba(255, 193, 15, 1));
+    --theme4: #3a495e;
+    --theme5: #0a626a;
+    --theme6: #ece9e6;
+    /* Landing Page CSS */
+    --auth-btn-shadow: 0 0 10px #e8cc80;
+    --lp-header-nav-border: 1px solid #bfa94b;
+    --lp-header-nav-bg-color: linear-gradient(to right, #0f1c15, #091815, #040c0c, #081012, #071216, #04070a, #090a0e, #08070a, #0a090a, #20130e, #382016, #2c1911);
+}
+
+body.theme2 {
+    --header_gradient: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(5, 48, 56, 1) 100%);
+    --header-bg-color: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(5, 48, 56, 1) 100%);
+    --header-font-color: #fff;
+    --active-color: #5fab04;
+    --active-font-color: #fff;
+    --primary-bg-color: #fff;
+    --primary-font-color: #000;
+    --border-color: #e5ecf3;
+    --casino-background: rgb(235, 235, 235);
+    --casino-font-color: #000;
+    --casino-menu-bg: #fff;
+    --casino-menu-color: #000;
+    --add-account-bg: #ececec;
+}
+
+body.theme3 {
+    --header_gradient: linear-gradient(to left, rgba(255, 193, 15, 1), rgba(250, 210, 98, 1), rgba(255, 193, 15, 1));
+    --header-bg-color: linear-gradient(to left, rgba(255, 193, 15, 1), rgba(250, 210, 98, 1), rgba(255, 193, 15, 1));
+    --header-font-color: #000;
+    --active-color: #f2994a;
+    --active-font-color: #fff;
+    --primary-bg-color: #fff;
+    --primary-font-color: #000;
+    --border-color: #e5ecf3;
+    --casino-background: rgb(235, 235, 235);
+    --casino-font-color: #000;
+    --casino-menu-bg: #fff;
+    --casino-menu-color: #000;
+    --add-account-bg: #ececec;
+}
+
+body.theme4 {
+    --header_gradient: #000;
+    --header-bg-color: #000;
+    --header-font-color: #fff;
+    --active-color: linear-gradient(to left, rgba(255, 193, 15, 1), rgba(250, 210, 98, 1), rgba(255, 193, 15, 1));
+    --active-font-color: #000;
+    --primary-bg-color: #101010;
+    --primary-font-color: #fff;
+    --border-color: #3a3a3a;
+    --casino-background: #152331;
+    --casino-font-color: #fff;
+    --casino-menu-bg: #152331;
+    --casino-menu-color: #fff;
+    --add-account-bg: #152331;
+    --b-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.2);
+    --runner-row-bg: rgba(255, 255, 255, 0.05);
+    --bs-keyboard: #fff;
+}
+
+body.theme5 {
+    --header_gradient: #0a626a;
+    --header-bg-color: #0a626a;
+    --header-font-color: #fff;
+    --active-color: #2ea7b2;
+    --active-font-color: #fff;
+    --primary-bg-color: #fff;
+    --primary-font-color: #000;
+    --border-color: #e5ecf3;
+    --casino-background: rgb(235, 235, 235);
+    --casino-font-color: #000;
+    --casino-menu-bg: #fff;
+    --casino-menu-color: #000;
+    --add-account-bg: #ececec;
+}
+
+body.theme6 {
+    --header_gradient: #ece9e6;
+    --header-bg-color: #ece9e6;
+    --header-font-color: #000;
+    --active-color: #008282;
+    --active-font-color: #fff;
+    --primary-bg-color: #fff;
+    --primary-font-color: #000;
+    --border-color: #e5ecf3;
+    --casino-background: rgb(235, 235, 235);
+    --casino-font-color: #000;
+    --casino-menu-bg: #fff;
+    --casino-menu-color: #000;
+    --add-account-bg: #ececec;
+}
+
+
+/* Logo css */
+
+.logo_image {
+    height: auto;
+    width: 180px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .logo_image {
+        height: auto;
+        width: 100px !important;
+    }
+    .blink_me[data-v-0c300183] {
+        font-size: 14px !important;
+    }
+    .logo_container {
+        padding-left: 0 !important;
+    }
+    .bal-ex-block {
+        padding: 2px 4px !important;
+    }
+    .mobile-hide{
+        display: none !important;
+    }
+    .mobile-show {
+        display: block !important;
+    }
+}
