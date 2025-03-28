@@ -10,7 +10,6 @@ const LoginSignupSection = () => {
   const handleLoginSubmit = (event) => {
     event.preventDefault();
     setIsLoading(true);
-    ic;
 
     setTimeout(() => setIsLoading(false), 2000);
   };
