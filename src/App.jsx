@@ -14,7 +14,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 // Layout Components
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
-import SecondFooter from "./components/layout/Secondfooter";
+import Secondfooter from "./components/layout/Secondfooter";
 
 // Public Pages
 import Home from "./components/layout/Home";
@@ -83,7 +83,7 @@ function PageWrapper() {
       ) : location.pathname === "/" ? (
         <Footer />
       ) : (
-        <SecondFooter />
+        <Secondfooter />
       )}
     </>
   );
