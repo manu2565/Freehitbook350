@@ -19,7 +19,7 @@ import Secondfooter from "./components/layout/Secondfooter";
 // Public Pages
 import Home from "./components/layout/Home";
 import RegisterPage from "./components/layout/RegisterPage";
-import LoginSignupSection from "./components/layout/LoginSignupSection";
+import LoginSignupSection from "./components/layout/LoginSignupsection";
 import Forgetpassword from "./components/layout/Forgetpassword";
 import AboutUs from "./components/layout/AboutUs";
 import Blogs from "./components/layout/Blogs";
