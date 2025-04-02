@@ -14,6 +14,18 @@ import YouTubeBackground from "../../../public/assets/images/youtube.webp";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
+  const freeHit365 = "/assets/images/freeHit365.webp";
+const PaymentGatewayLogo = "/assets/images/payment-getway.webp";
+const Logo18Plus = "/assets/images/18plus.webp";
+const GamecareProfilePic = "/assets/images/gamecare.webp";
+const GTBackground = "/assets/images/gt.webp";
+const ApplicationImgLogo = "/assets/images/application-img.svg";
+const InstagramProfilePic = "/assets/images/instagram.svg";
+const TelegramProfilePic = "/assets/images/telegram.webp";
+const FacebookBackground = "/assets/images/facebook.webp";
+const WhatsappLogo = "/assets/images/whatsapp.svg";
+const YouTubeBackground = "/assets/images/youtube.webp";
+
 
   return (
     <section className="bg-footer animate">
