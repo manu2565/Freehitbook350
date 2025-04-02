@@ -1,16 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import freeHit365 from "../../../public/assets/images/freeHit365.webp";
-import PaymentGatewayLogo from "../../../public/assets/images/payment-getway.webp";
-import Logo18Plus from "../../../public/assets/images/18plus.webp";
-import GamecareProfilePic from "../../../public/assets/images/gamecare.webp";
-import GTBackground from "../../../public/assets/images/gt.webp";
-import ApplicationImgLogo from "../../../public/assets/images/application-img.svg";
-import InstagramProfilePic from "../../../public/assets/images/instagram.svg";
-import TelegramProfilePic from "../../../public/assets/images/telegram.webp";
-import FacebookBackground from "../../../public/assets/images/facebook.webp";
-import WhatsappLogo from "../../../public/assets/images/whatsapp.svg";
-import YouTubeBackground from "../../../public/assets/images/youtube.webp";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
