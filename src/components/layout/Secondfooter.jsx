@@ -7,7 +7,7 @@ import {
   FaTelegram,
 } from "react-icons/fa";
 
-function SecondFooter() {
+function Secondfooter() {
   return (
     <>
       {" "}
@@ -122,4 +122,4 @@ function SecondFooter() {
   );
 }
 
-export default SecondFooter;
+export default Secondfooter;
