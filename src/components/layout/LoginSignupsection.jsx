@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, Links, useNavigate } from "react-router-dom";
 
-const LoginSignupSection = () => {
+const LoginSignupsection = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -129,4 +129,4 @@ const LoginSignupSection = () => {
   );
 };
 
-export default LoginSignupSection;
+export default LoginSignupsection;
